@@ -47,3 +47,20 @@ form.addEventListener("submit", function (e) {
   msg.style.color = "green";
   form.reset();
 });
+
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener("click", function(scroll) {
+    scroll.preventDefault();
+
+    const target = document.querySelector(this.getAttribute("href"));
+    const offset = 100;
+
+    const top = target.getBoundingClientRect().top + window.scrollY - offset;
+
+    window.scrollTo({
+      top,
+      behavior: "smooth"
+    });
+  });
+});
+

@@ -48,12 +48,6 @@ ul {
   opacity: 1; 
   transform: translateY(0);
 }
-
-#about, #skills, #contact {
-  scroll-margin-top:100px;
-}
-
-
 header {
     display: flex;
     flex-direction: column;
