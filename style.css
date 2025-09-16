@@ -49,6 +49,11 @@ ul {
   transform: translateY(0);
 }
 
+#about, #skills, #contact {
+  scroll-margin-top:100px;
+}
+
+
 header {
     display: flex;
     flex-direction: column;
@@ -178,11 +183,6 @@ input:valid, textarea:valid {
   justify-content: center;
   max-width: 500px;
 }
-
-#about, #skills, #contact {
-  scroll-margin-top:100px;
-}
-
 
 @keyframes hoveranim {
     0% {
