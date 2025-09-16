@@ -1,0 +1,56 @@
+@media (max-width: 480px) { 
+    body {
+        font-size: 14px;
+        transition: all 0.5s;
+    }
+    footer {
+        font-size: 12px;
+        transition: all 0.5s;
+    }
+    header {
+        flex-direction: column;
+        margin-bottom: 40px;
+        transition: all 0.5s;
+        img {
+        width: 90px !important;
+        height: 90px !important;
+        margin-top: 55px !important;
+    }
+    }
+    nav {
+        margin: 0;
+        font-size: 14px;
+        align-items: center;
+        transition: all 0.5s;
+    }
+    section {
+        transition: all 0.5s;
+    }
+    
+    h1 {
+        font-size: 24px;
+        transition: all 0.5s;
+    }
+    h2 {
+        font-size: 20px;
+        transition: all 0.5s;
+    }
+    .theme-toggle {
+        margin: 0;
+
+        padding: 5px 8px;
+        font-size: 10px;
+        transition: all 0.5s;
+    }
+    .submit {
+        padding: 5px 8px;
+        font-size: 14px;
+        max-width: 80px;
+        transition: all 0.5s;
+    }
+    .contact-form {
+        flex-direction: column;
+        align-items: center;
+        transition: all 0.5s;
+    }
+}

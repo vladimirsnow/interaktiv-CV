@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@400;700&family=Fira+Code&display=swap"
+      rel="stylesheet"/>
+    <link rel="stylesheet" href="adaptation.css">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <img src="https://www.pngall.com/wp-content/uploads/14/Hatsune-Miku-PNG-Image.png" alt="Фото"/>
+      <h1>Владимир Щерба 12 ТИС</h1>
+      <p>Студент коледжа Hexlet 2 курса</p>
+    </header>
+    <nav>
+      <a href="#about">Обо мне</a>
+      <a href="#skills">Навыки</a>
+      <a href="#contact">Контакты</a>
+      <button class="theme-toggle">Тёмная тема</button>
+    </nav>
+    <main>
+      <section id="about" class="AboutMe hidden">
+        <h2>Обо мне</h2>
+        <p>
+          Я студент 12 ТИС, увлекаюсь программированием, видео играми и
+          разработкой веб-приложений.
+        </p>
+      </section>
+      <section id="experience" class="experience hidden">
+        <h2>Мой опыт работы</h2>
+        <p>Не имею опыта работы.</p>
+      </section>
+      <section id="skills" class="skills hidden">
+        <h2>Skills</h2>
+        <ul>
+          <li>HTML - начальный уровень</li>
+          <li>CSS - начальный уровень</li>
+          <li>JavaScript - начальный уровень</li>
+        </ul>
+      </section>
+      <section id="education" class="education hidden">
+        <h2>Образование</h2>
+        <ul>
+          <li>Коледж: Hexlet</li>
+          <li>специальность: РПО</li>
+          <li>годы обучения: 2023-2028</li>
+          <li>Курс: 2</li>
+        </ul>
+      </section>
+      <section id="projects" class="projects hidden">
+        <h2>Проекты</h2>
+        <ul class="project-list">
+          <li>
+            <a href="https://vladimirsnow.github.io/swastika2"
+              >Проект созданный по приколу</a
+            >
+          </li>
+          <li>
+            <a href="https://vladimirsnow.github.io/weboivo"
+              >Проект скопированый с готового<br> как домашние задания</a
+            >
+          </li>
+        </ul>
+      </section>
+      <section id="languages" class="languages hidden">
+        <h2>Языки</h2>
+        <p>Владею только русским языком</p>
+      </section>
+      <section class="contact-form hidden">
+        <form id="contactForm">
+  <label>
+    Имя:
+    <input type="text" id="name" name="name" required minlength="2">
+  </label>
+
+  <label>
+    Email:
+    <input type="email" id="email" name="email" required>
+  </label>
+
+  <label>
+    Сообщение:
+    <textarea id="message" name="message" required minlength="10"></textarea>
+  </label>
+
+  <button class="submit" type="submit">Отправить</button>
+</form>
+
+<p id="formMessage"></p>
+
+      </section>
+    </main>
+    <footer id="contact" class="contact">
+      <p>Контактная информация:</p>
+      <ul>
+        <li>Email: vladimirsnowflak2@gmail.com</li>
+        <li>Телефон: +7 778 793 65 64</li>
+      </ul>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
