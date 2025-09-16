@@ -179,6 +179,10 @@ input:valid, textarea:valid {
   max-width: 500px;
 }
 
+#about, #skills, #contact {
+  scroll-margin-top:100px;
+}
+
 
 @keyframes hoveranim {
     0% {
